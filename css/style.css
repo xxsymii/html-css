@@ -1,0 +1,201 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    background-color:#936346;
+}
+.container{
+    width: 80%;
+}
+header{
+    background-color: white;
+}
+header img{
+    width: 175px;
+    height:150px;
+    /* float: right; */
+    display:block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px; 
+}
+header p{
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-style: italic;
+}
+nav{
+    background-color: #473327;
+    font-size: 20px;
+    color: rgb(236, 231, 231);
+    transition: width 2s, height 2s, transform 2s;
+    /* padding-top: 5px;
+    padding-bottom: 5px; */
+}
+.menu a{
+    color: antiquewhite;
+    float: left;
+    padding:20px 20px;
+    display: inline;
+}
+.menu a:hover:first-child{
+    color: #5c5c44;
+    transform: rotate(270deg);
+}
+.menu a:hover:last-child{
+    color: #5c5c44;
+}
+.menu a:hover:nth-child(2){
+    color:#5c5c44;
+}
+.menu a:hover:nth-child(3){
+    color: #5c5c44;
+}
+.menu a:hover:nth-child(4){
+    color: #5c5c44;
+}
+.search{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.search input{
+    padding:20px;
+    margin: 5px;
+    width:200px;
+    border:1 px solid grey grey;
+    border-radius: 20px; 
+    height: 30px;
+}
+/* .input placeholder{
+    font-size: 100px;
+} */
+#banner{
+    position: relative;
+}
+#banner img{
+    width: 100%;
+    height:300px;
+    display:block;
+}
+.info{
+    position:absolute;
+    top:20px;  
+    left:50px;
+    color: rgb(0, 0, 0);
+}
+.info h2{
+    font-size: 40px;
+    /* font-style:; */
+    display: block;
+    color: rgb(171, 139, 12);
+    font-size: 50px;
+}
+.info h5{
+    font-style: italic;
+    font-family: sans-serif;
+    color: black;
+    top: 20px;
+}
+.info a{
+    display: block;
+    color: rgb(0, 50, 143);
+    display: block;
+    font-size: 20px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    /* padding-top: 10%; */
+    padding-bottom: 2%;
+}
+.box{
+    background-color: azure;
+    width:30%;
+    height:250px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+}
+.box img{
+    width:100%;
+    height:300px;
+    /* padding-top: 30px; */
+    display: block;
+    border-radius: 10px;
+    /* position: relative; */
+}
+.offer, .stocked, .discount{
+    position: absolute;
+    left: 0px;
+    top:0px;
+    font-size: 20px;
+    padding:5px;
+    border-top-left-radius:10px ;
+}
+.offer{
+    background-color: red;
+}
+.stocked{
+    background-color: green;
+}
+.discount{
+    background-color: yellow;
+}
+.newsletter{
+    background-color: khaki;
+    padding: 50px;
+    background-image: url('../image/Rolex.jpg');
+    margin-top: 50px;
+}
+.newsletter form{
+    display: block;
+    text-align: center;
+}
+.newsletter input[type=text]{
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.newsletter input[type=submit]{
+    padding: 10px;
+    width: 100px;
+    background-color: rgb(0, 24, 110);
+    color: white;
+    border:1px solid;
+}
+footer{
+    padding: 40px;
+    text-align: center;
+}
+.footer_boxes{
+    display:flex;
+}
+.footer_boxes h5{
+    color: rgb(0, 15, 110);
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* justify-content: space-between; */
+}
+.footer_box{
+    width: 20%;
+}
+.footer_boxes ul{
+    list-style: none;
+}
+.footer_boxes ul li{
+    padding: 5px 0;
+}
+.footer_boxes ul li a{
+    color: #ffffff;
+    font-size: 13px;
+    text-decoration: none;
+}
+.footer_box a:hover:first-child{
+    color: #5c5c44;
+}
